@@ -14,6 +14,7 @@
 
 - The application uses a JSON file to store the data about events and competitors. The JSON file is opened and closed in each endpoint function, so that the data is always up-to-date.
 
+   - To Run: Run app.py in terminal. The application will then be available on port 5000. You can access the endpoints using a web browser or a REST client.
 
 # Surf Competition Management System (SCMS)
 
