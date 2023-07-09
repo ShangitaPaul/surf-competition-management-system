@@ -1,4 +1,22 @@
-# surf-competition-management-system
+# Sample Code:
+
+- main.py: Provides basic structure for the SCMS. It includes functions for creating events, registering competitors, assigning judges, tracking scores, and generating reports. The main function of the code creates a new event, registers a competitor for the event, assigns a judge to the event, tracks the score of a wave ridden by the competitor, and generates a report on the results of the event.
+
+It will be extended to include additional features, such as the ability to manage multiple events, the ability to view and edit the data in the database, and the ability to customize the user interface.
+
+- app.py: This code defines a simple Flask application that can be used to manage surf competitions. The application exposes two endpoints:
+
+/events: This endpoint can be used to get a list of all events, or to create a new event.
+
+/competitors: This endpoint can be used to get a list of all competitors, or to create a new competitor.
+
+The application uses a JSON file to store the data about events and competitors. The JSON file is opened and closed in each endpoint function, so that the data is always up-to-date.
+
+
+# Surf Competition Management System (SCMS)
+
+**THIS APP IS UNDER DEVELOPMENT***
+
 The Surf Competition Management System (SCMS) is a Software application that helps organizers of surf competitions to manage all aspects of the competition, from registration and scheduling to scoring and results reporting.
 
 The back end of an SCMS is responsible for storing and managing all of the data related to the competition, such as the competitors' information, the competition schedule, and the scoring results. The back end also provides APIs that allow the front end of the application to access and manipulate this data.
